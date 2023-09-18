@@ -1,4 +1,6 @@
-﻿// Code developed in class, 13 September 2023
+﻿//============================================================================
+// Code developed in class, 18 September 2023
+//============================================================================
 using System;
 using System.Diagnostics;
 
@@ -12,6 +14,7 @@ class Program
 
         numbers = GenRandomNumbers(n);
 
+        // First timer
         timer.Start();
         AddNumbers(numbers, n);
         timer.Stop();
@@ -21,6 +24,7 @@ class Program
             timer.ElapsedTicks + " ticks\n");
         float addTicks = (float)timer.ElapsedTicks;
         
+        // second timer
         timer.Restart();
         MultiplyNumbers(numbers, n);
         timer.Stop();
