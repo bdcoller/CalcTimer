@@ -37,6 +37,7 @@ class Program
         Console.WriteLine("Ratio = " + addTicks/multTicks);
     }
 
+    //--------------------------------------------------
     // Function to generate an array of random numbers
     static double[,] GenRandomNumbers(int count)
     {
